@@ -1,0 +1,76 @@
+<html>
+    <head>
+      <title>
+        Basix Form
+      </title>
+    </head>
+    <body>
+     <h1>Basix Form</h1>
+   
+     <form>
+      <div>
+        <label for="name">Name</label>
+        <input id="name"  placeholder="Enter name" maxlength="4" minlength="2"/>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter email" />
+      </div>
+       <div>
+        <label for="number">Age</label>
+       <input id="number" type="number" max="100" min="0"/>
+       <br>
+       </div>
+       <div>
+        <label>Address</label>
+        <textarea cols="50" rows="10">
+
+        </textarea>
+       </div>
+       <div>
+        <label>Birth Date: </label>
+        <input type="date"/>
+       </div>
+       <div>
+        <label>Gender</label>
+        <input type="radio" name="gender"/>Male
+        <input type="radio" name="gender"/>FeMale
+        <input type="radio" name="gender"/>Other
+       </div>
+       <div>
+        <label>Skills</label>
+        <input type="checkbox" value="c++"/>c++
+        <input type="checkbox" value="java"/>java
+        <input type="checkbox" value="c"/>C programming
+        <input type="checkbox" value="dsa"/>DSA
+       </div>
+       <div>
+  
+        <select name="Select skills">
+          <option value="Select skills">Select skills</option>
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="spring" selected>spring</option>
+        </select>
+       </div>
+       <div>
+        <input list="University"text"/>
+        <datalist id="University">
+          <option>msu</option>
+          <option>ddu</option>
+          <option>nit</option>
+          <option>iit</option>
+        </datalist>
+       </div>
+       <input type="file"/>
+       <br>
+       <input type="range"/>
+       <br>
+       <input type="color"/> <br>
+       <input type="reset"/>
+       <input type="submit" value="signup"> 
+        
+     </form>
+     <img src="./download3.png" alt="nav-bg"/>
+    </body>
+</html>
