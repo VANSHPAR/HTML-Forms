@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+<student>
+<name>Vansh</name>
+<PRN>8032051978</PRN>
+<semester>3</semester>
+<branch>CSE</branch>
+<mobileno.>9988774455</mobileno.>
+</student>
+<student>
+<name>rayan</name>
+<PRN>8032051888</PRN>
+<semester>7</semester>
+<branch>ECE</branch>
+<mobileno.>9988456355</mobileno.>
+</student>
+<student>
+<name>Alice</name>
+<PRN>8032054545</PRN>
+<semester>6</semester>
+<branch>ME</branch>
+<mobileno.>9865327845</mobileno.>
+</student>
+</students>
